@@ -7,7 +7,7 @@
         public string? Name { get; private set; }
         public string? Description { get; private set; }
         public Foodgroup? Foodgroup { get; private set; }
-        public int AmountPerPackage { get; private set; }
+        public int? AmountPerPackage { get; private set; }
         public enum UOMs
         {
             g = 0,
@@ -15,7 +15,7 @@
             l = 2,
             Stk = 3,
         }
-        public UOMs UOM { get; private set; }
+        public UOMs? UOM { get; private set; }
         public byte[]? Image { get; private set; }
         public Food(int id, string name, Foodgroup foodgroup, int amountPerPackage, UOMs uom,  string description = "-", byte[]? image = null)
         {
