@@ -27,6 +27,7 @@
             UOM = uom;
             Image = image;
         }
+        public Food() { }
         public void ChangeName(string? name)
         {
             Utilities.Validator.ValidateString(name, "Name");
