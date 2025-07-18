@@ -3,7 +3,7 @@ using Newtonsoft.Json;
 
 namespace ModelsUnitTests
 {
-    public class Tests
+    public class FoodUnitTests
     {
         private Foodgroup _Foodgroup;
         private Food _Food;
